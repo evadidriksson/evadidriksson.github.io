@@ -4,29 +4,19 @@ body {
 
 .linkedin, .facebook, .mail, .phone {
   width:3%;
-  height:5%;
+  margin-top:1%;
+  margin-bottom: 1%;
   padding-left: 1%;
-  padding-top:1%;
+  float: right;
 }
 
-.icon-wrapper {
-  width: 100%;
-  height: 20%;
-  display: flex;
-  justify-content: flex-end;
-}
+
 
 .top {
-  width: 100%;
   position: fixed;
-
   background: white;
   top: 0;
-}
-
-img {
-  width: 100%;
-  height: 100%;
+  padding-right: 5%;
 }
 
 .header {
@@ -53,7 +43,7 @@ h1 {
 }
 
 .subheading {
-  font-size: 30px;
+  font-size: 21px;
   font-family: 'Source Sans Pro', sans-serif;
   margin-left: 5%;
   margin-top: -7%;
@@ -76,7 +66,7 @@ h1 {
 }
 
 .sub-about {
-  background: pink;
+  background: ;
   font-size: 40px;
   font-family: 'Oswald', sans-serif;
 }
@@ -143,6 +133,18 @@ p {
 
 footer {
   background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail-footer, .linkedin-footer {
+  width: 5%;
+  background: red;
+}
+
+.footer-wrapper {
+
 }
 
 
