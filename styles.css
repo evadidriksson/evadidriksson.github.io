@@ -4,13 +4,12 @@ body {
 
 .linkedin, .facebook, .mail, .phone {
   width:3%;
+  height:3%;
   margin-top:1%;
   margin-bottom: 1%;
   padding-left: 1%;
   float: right;
 }
-
-
 
 .top {
   width: 100%;
@@ -31,7 +30,6 @@ body {
   justify-content: space-around;
   border-bottom: solid black;
   padding-bottom: 30px;
-  background: ;
 }
 
 img.profile {
@@ -62,7 +60,8 @@ h1 {
 .about-me {
   display: flex;
   justify-content: flex-start;
-
+border: solid black;
+margin-top:2%;
 }
 
 .container-rubrik {
@@ -70,21 +69,15 @@ h1 {
   justify-content: center;
 }
 
-.sub-about {
-  background: ;
-  font-size: 40px;
-  font-family: 'Oswald', sans-serif;
-}
+
 
 .me {
   width: 50%;
-  background: yellow;
   padding:2%;
 }
 
 .skills {
   width: 50%;
-  background: green;
   border-left: solid black;
   padding:2%;
 }
@@ -95,12 +88,15 @@ h1 {
 }
 
 .education {
-  background: orange;
+  border:solid black;
+  margin-top:2%;
   padding:2%;
 }
 
 .experience {
-  background-color: red;
+  border:solid black;
+  margin-top:2%;
+  margin-bottom:2%;
   padding:2%;
 }
 
@@ -137,17 +133,23 @@ p {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.name, .adress, .adress2, .mobil {
+  font-size: 17px;
+  padding:0;
+  margin: 0;
+}
+
 .list-skills {
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 footer {
-  background: grey;
   display: flex;
   align-items: center;
   justify-content: center;
   border-top: solid black;
+  padding-bottom: 3%;
 }
 
 .mail-footer, .linkedin-footer {
@@ -161,8 +163,25 @@ footer {
 
 
 /* For mobile */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .header {
-    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+  }
+
+  img.profile {
+    width: 30%;
+    border-radius: 50%;
+    padding: 5%;
+  }
+  h1 {
+    font-size: 50px;
+    margin-left:0;
+  }
+  .sub-heading {
+    font-size:10px;
   }
 }
